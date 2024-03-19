@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://caldtfp4yrsub"]
+
+[ext_resource type="FontFile" uid="uid://bh8r55hk8c06m" path="res://Art Assets/Card Stuff/PixelFont.ttf" id="1_kkq06"]
+
+[resource]
+default_font = ExtResource("1_kkq06")
+default_font_size = 0
