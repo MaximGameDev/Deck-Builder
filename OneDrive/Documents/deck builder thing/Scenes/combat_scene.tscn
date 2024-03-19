@@ -1956,3 +1956,8 @@ layout_mode = 2
 
 [node name="Card Combat UI3" parent="Combat_UI/Hand" instance=ExtResource("9_vkbyi")]
 layout_mode = 2
+
+[connection signal="reparent_requested" from="Combat_UI/Hand/Card Combat UI" to="Combat_UI/Hand" method="_on_card_combat_ui_reparent_requested"]
+[connection signal="reparent_requested" from="Combat_UI/Hand/Card Combat UI4" to="Combat_UI/Hand" method="_on_card_combat_ui_reparent_requested"]
+[connection signal="reparent_requested" from="Combat_UI/Hand/Card Combat UI2" to="Combat_UI/Hand" method="_on_card_combat_ui_reparent_requested"]
+[connection signal="reparent_requested" from="Combat_UI/Hand/Card Combat UI3" to="Combat_UI/Hand" method="_on_card_combat_ui_reparent_requested"]

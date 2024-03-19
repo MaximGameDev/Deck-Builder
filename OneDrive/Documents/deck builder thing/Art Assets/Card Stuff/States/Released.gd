@@ -3,8 +3,7 @@ extends CardStates
 var played: bool
 
 func enter() -> void:
-	card_combat_ui.color.color = Color.DARK_BLUE
-	card_combat_ui.state.text = "RELEASED"
+	card_combat_ui.update_state_text("Released")
 
 	played = false
 	

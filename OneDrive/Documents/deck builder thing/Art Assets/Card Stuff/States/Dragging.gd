@@ -11,8 +11,7 @@ func enter() -> void:
 	if ui:
 		card_combat_ui.reparent(ui)
 
-	card_combat_ui.color.color = Color.BLUE_VIOLET
-	card_combat_ui.state.text = "DRAGGING"
+	card_combat_ui.update_state_text("Dragging")
 	
 	minumum_drag_time_elapsed = false
 	var threshold_timer := get_tree().create_timer(DRAG_MINIMUM_THRESHOLD, false)

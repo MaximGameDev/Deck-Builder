@@ -6,8 +6,7 @@ func enter() -> void:
 		await card_combat_ui.ready
 
 	card_combat_ui.reparent_requested.emit(card_combat_ui)
-	card_combat_ui.color.color = Color.WEB_MAROON
-	card_combat_ui.state.text = "BASE"
+	card_combat_ui.update_state_text("Base")
 	card_combat_ui.pivot_offset = Vector2.ZERO
 
 
